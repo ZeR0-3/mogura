@@ -1,0 +1,231 @@
+{
+	"width": 640,
+	"height": 360,
+	"fps": 30,
+	"main": "./script/_bootstrap.js",
+	"assets": {
+		"player": {
+			"type": "image",
+			"width": 32,
+			"height": 32,
+			"path": "image/player.png"
+		},
+		"shot": {
+			"type": "image",
+			"width": 16,
+			"height": 16,
+			"path": "image/shot.png"
+		},
+		"se": {
+			"type": "audio",
+			"path": "audio/se",
+			"systemId": "sound",
+			"duration": 250
+		},
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"parameterObject": {
+			"type": "script",
+			"path": "script/parameterObject.js",
+			"global": true
+		},
+		"_bootstrap": {
+			"type": "script",
+			"path": "script/_bootstrap.js",
+			"global": true
+		},
+		"TT": {
+			"type": "script",
+			"path": "script/TT.js",
+			"global": true
+		},
+		"BaseEnttity": {
+			"type": "script",
+			"path": "script/Entity/BaseEnttity.js",
+			"global": true
+		},
+		"BG": {
+			"type": "script",
+			"path": "script/Entity/BG.js",
+			"global": true
+		},
+		"End": {
+			"type": "script",
+			"path": "script/Entity/End.js",
+			"global": true
+		},
+		"info": {
+			"type": "script",
+			"path": "script/Entity/info.js",
+			"global": true
+		},
+		"Mogura": {
+			"type": "script",
+			"path": "script/Entity/Mogura.js",
+			"global": true
+		},
+		"Score": {
+			"type": "script",
+			"path": "script/Entity/Score.js",
+			"global": true
+		},
+		"Timer": {
+			"type": "script",
+			"path": "script/Entity/Timer.js",
+			"global": true
+		},
+		"Title": {
+			"type": "script",
+			"path": "script/Entity/Title.js",
+			"global": true
+		},
+		"Mograkanri": {
+			"type": "script",
+			"path": "script/Kanri/Mograkanri.js",
+			"global": true
+		},
+		"MGScene": {
+			"type": "script",
+			"path": "script/Scene/MGScene.js",
+			"global": true
+		},
+		"SceneBase": {
+			"type": "script",
+			"path": "script/Scene/SceneBase.js",
+			"global": true
+		},
+		"SceneBaseFact": {
+			"type": "script",
+			"path": "script/Scene/SceneBaseFact.js",
+			"global": true
+		},
+		"StateMogura": {
+			"type": "script",
+			"path": "script/State/StateMogura.js",
+			"global": true
+		},
+		"hit": {
+			"type": "audio",
+			"path": "audio/hit",
+			"systemId": "sound",
+			"duration": 1123
+		},
+		"miss": {
+			"type": "audio",
+			"path": "audio/miss",
+			"systemId": "sound",
+			"duration": 1243
+		},
+		"bgm": {
+			"type": "audio",
+			"path": "audio/bgm",
+			"systemId": "sound",
+			"duration": 94668
+		},
+		"ana": {
+			"type": "image",
+			"width": 112,
+			"height": 96,
+			"path": "image/ana.png"
+		},
+		"bg": {
+			"type": "image",
+			"width": 640,
+			"height": 340,
+			"path": "image/bg.png"
+		},
+		"bg1": {
+			"type": "image",
+			"width": 640,
+			"height": 340,
+			"path": "image/bg1.png"
+		},
+		"font": {
+			"type": "image",
+			"width": 1024,
+			"height": 836,
+			"path": "image/font.png"
+		},
+		"gameend": {
+			"type": "image",
+			"width": 640,
+			"height": 340,
+			"path": "image/gameend.png"
+		},
+		"moguraall": {
+			"type": "image",
+			"width": 224,
+			"height": 96,
+			"path": "image/moguraall.png"
+		},
+		"moguraallb": {
+			"type": "image",
+			"width": 224,
+			"height": 96,
+			"path": "image/moguraallb.png"
+		},
+		"moguraallr": {
+			"type": "image",
+			"width": 216,
+			"height": 86,
+			"path": "image/moguraallr.png"
+		},
+		"titile": {
+			"type": "image",
+			"width": 640,
+			"height": 340,
+			"path": "image/titile.png"
+		},
+		"JScene": {
+			"type": "script",
+			"path": "script/Scene/JScene.js",
+			"global": true
+		},
+		"font_glyphs": {
+			"type": "text",
+			"path": "text/font_glyphs.json"
+		},
+		"moguraSetumei": {
+			"type": "image",
+			"width": 640,
+			"height": 340,
+			"path": "image/moguraSetumei.png"
+		},
+		"hajime": {
+			"type": "image",
+			"width": 640,
+			"height": 360,
+			"path": "image/hajime.png"
+		}
+	},
+	"moduleMainScripts": {
+		"@akashic-extension/akashic-timeline": "node_modules/@akashic-extension/akashic-timeline/lib/index.js",
+		"@akashic-extension/akashic-label": "node_modules/@akashic-extension/akashic-label/lib/index.js"
+	},
+	"environment": {
+		"sandbox-runtime": "2",
+		"niconico": {
+			"supportedModes": [
+				"ranking"
+			],
+			"preferredSessionParameters": {
+				"totalTimeLimit": 110
+			}
+		}
+	},
+	"globalScripts": [
+		"node_modules/@akashic-extension/akashic-timeline/lib/ActionType.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Easing.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Timeline.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Tween.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/index.js",
+		"node_modules/@akashic-extension/akashic-label/lib/DefaultRubyParser.js",
+		"node_modules/@akashic-extension/akashic-label/lib/FragmentDrawInfo.js",
+		"node_modules/@akashic-extension/akashic-label/lib/Label.js",
+		"node_modules/@akashic-extension/akashic-label/lib/RubyParser.js",
+		"node_modules/@akashic-extension/akashic-label/lib/index.js"
+	]
+}
