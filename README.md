@@ -1,6 +1,6 @@
 # typescript-game-sample
 
-**typescript-game-sample**はTypeScriptでAkashicのゲームを作る際のサンプルプロジェクトです。
+**typescript-game-sample**はもぐらたたきです。
 
 ## 利用方法
 
